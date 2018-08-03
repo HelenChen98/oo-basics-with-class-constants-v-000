@@ -10,6 +10,7 @@ class Shoe
 
   def brand=(brand)
     BRANDS << brand
+    BRANDS
   end
 
   def cobble
